@@ -36,7 +36,8 @@ body {
   }
   
   .display {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: #222222;
     color: #ffffff;
     font-size: 2rem;
@@ -46,6 +47,8 @@ body {
     margin-bottom: 20px;
     min-height: 50px;
     gap: 20px;
+    word-wrap: break-word;
+  
   }
   
   .buttons {
@@ -92,6 +95,7 @@ body {
   .tocalc {
     font-size: 1rem; 
     color: #bbbbbb; 
+    word-wrap: break-word;
   }
   
   .theanswer {

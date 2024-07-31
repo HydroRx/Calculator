@@ -31,7 +31,7 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 450px;
     padding: 20px;
   }
   
@@ -102,4 +102,22 @@ body {
     font-size: 2rem; 
     color: #ffffff; 
   }
+
+  .btn[data-type="operator"] {
+    background-color: #ff8c00; 
+    color: #fff; 
+  }
   
+  .btn[data-type="operator"]:hover {
+    background-color: #ff7f00; 
+  }
+  
+  .btn[data-type="equal"] {
+    background-color: #6641eb; 
+    color: #fff; 
+  }
+
+   
+  .btn[data-type="equal"]:hover {
+    background-color: #7481fa; 
+  }

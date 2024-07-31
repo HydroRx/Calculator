@@ -11,20 +11,20 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
     font-family: "Orbitron", sans-serif;
   }
   
   .container {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
   }
   
   .calculator {
@@ -121,3 +121,28 @@ body {
   .btn[data-type="equal"]:hover {
     background-color: #7481fa; 
   }
+
+  footer {
+    background-color: #222321; 
+    color: #ffffff;
+    text-align: center; 
+    padding: 10px; 
+    width: 100%; 
+    word-spacing: 5px;
+    }
+  
+  footer p {
+    margin: 0; 
+    font-size: 0.9rem;
+    
+  }
+
+  footer a {
+    color: #ffffff;
+    text-decoration: none; 
+  }
+  
+  footer a:hover {
+    text-decoration: underline; 
+  }
+  
